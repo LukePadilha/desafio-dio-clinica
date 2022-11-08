@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários de atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table{
+            border: solid 1px grey;
+        }
+        table thead th{
+           background-color: black;
+           color: white;
+        }
+        table tfoot td {
+            background-color: lightgrey;
+        }
+        table tbody tr:nth-child(even){
+            background-color: #f1f1f1;
+        }
+        table tbody tr:hover{
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <nav id="menu-h">
+                <ul>  
+                    <a href="https://pt.vecteezy.com/vetor-gratis/logo-veterinaria"><img src="assets/vecteezy_vector-pet-shop-logo-design-template-modern-animal-icon_6470429.jpg" width="100"></a>    
+                    <li><a href="template.html">HOME</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="horarios.html">HORÁRIOS</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="header" >                    
+            </div >
+            <div class="content">
+                <h2>Oferecemos os seguintes serviços:</h2>
+                <ul>
+                    <li>Cuidado dentário</li>
+                    <li>Ultrasonografia</li>
+                    <li>Radiografia digital</li>
+                    <li>Acompanhamento nutricional</li>
+                    <li>Pets exóticos</li>
+                    <li>Cuidado geriátrico</li>
+                    <li>Cirurgia laser</li>
+                    <li>Endoscopia</li>
+                    <li>Microchips</li>
+                    <li>Testes laboratoriais</li>
+                    <li>Cuidados preventivos</li>
+                    <li>Cirurgia</li>
+                    <li>Acupuntura</li>
+                    <li>Plantão</li>
+                </ul>
+                <table summary="Tabela de horários de atendimento" cellspacing="0" cellpadding="5" width ="550" align="center">
+                    <caption><strong>Atendimento</strong></caption>
+                    <thead>
+                        <tr id="1">
+                            <th title="Dias">Dias</th>
+                            <th>Horários</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="2">
+                            <td>Segunda a Sexta</td>
+                            <td>8:00 - 20:00</td>
+                        </tr>
+                        <tr id="3">
+                            <td>Sábados</td>
+                            <td>8:00 - 16:00</td>
+                        </tr>
+                        <tr id="4">
+                            <td>Domingos</td>
+                            <td>8:00 - 12:00</td>
+                        </tr>
+                        <tr id="5">
+                            <td>Feriados</td>
+                            <td>8:00 - 12:00</td>
+                        </tr>
+                        <tr id="6">
+                            <td>Plantão/Emergências</td>
+                            <td> 24h</td>
+                        </tr>
+                        <tfoot>
+                        </tfoot>
+                </tbody>
+                </table>
+            </div>
+            <div class="footer">
+                Curitiba, PR </br>
+                0800 123 4567 </br>
+                clinicapet@clinicapet.com.br </br>
+            </div>
+    </div>
+</body>
+</html>
